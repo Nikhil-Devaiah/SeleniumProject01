@@ -14,6 +14,8 @@ public class Start {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/gmail/");
 		
+		driver.close();
+		
 		
 
 	}
