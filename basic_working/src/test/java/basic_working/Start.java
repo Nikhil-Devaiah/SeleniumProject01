@@ -17,6 +17,7 @@ public class Start {
 		
 		driver.findElement(By.xpath("//span[contains(text(),'Create account')]")).click();
 		driver.findElement(By.xpath("//span[contains(text(),'For my personal use')]")).click();
+		
 		driver.close();
 		
 		
